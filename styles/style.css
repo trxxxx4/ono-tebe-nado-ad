@@ -28,6 +28,7 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  border-bottom: none;
 }
 
 .header__link {
@@ -40,6 +41,10 @@
   text-underline-offset: 4px;
 
 }
+.header__link_active{
+  border: none;
+}
+
 
 .header__logo {
   display: block;
